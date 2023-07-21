@@ -1,11 +1,11 @@
 # rpractice / ps-1
 #
 # A2: Assignment 2 (A2)
-#    INFO-201 (Autumn 2022)
-#    dhendry@uw.edu
+#    INFO-201 (Summer 2023)
+#    shipeh@uw.edu
 
 # Practice set info ---- 
-practice.begin("A2", learner="[your name]", email="[your e-mail]")
+practice.begin("A2", learner="Shipei Huang", email="shipei@uw.edu")
 
 # Your 44 prompts ----
 
@@ -125,27 +125,29 @@ practice.begin("A2", learner="[your name]", email="[your e-mail]")
 
 #                                         Note 03.
 # 1a: Load the `stringr` package, which you will use later.
-
+library(stringr)
 # 1b: Load the data from https://countlove.org/data/data.csv (Variable: `protests`)
-
+# I downloaded it and put the data in the some file in my laptop
+protests <- read.csv("data.csv")
 #                                         Note 04.
 #     *BEST PRACTICE:* Use View() to open and examine the dataset. Some key questions to ask:  
 #        1. What information is available? 
 #        2. Are there missing values (NA, which means "Not Available.") or odd values? 
 #        3. What are the column names (sometimes called variables or features)?
-
+View(protests)
 # 1c: Use an R function to determine how many protests are in the dataset? (Variable: `num_protests`)
-
+num_protests <- nrow(protests)
 # 1d: Use an R function to determine how many how many values (also known as
 #    attributes or features) have been recorded for each protest (Variable: `num_features`)
-
+num_features <- ncol(protests)
 #                                         Note 05.
 ## Part 2: Attendees ----
 # In this part, you will explore the number of people who participated
 # in the protests.
 
 # 2a: Extract the `Attendees` column into a variable called `num_attendees`. (Variable: `num_attendees`)
-
+num_attendees <- protests$Attendees
+num_attendees
 #                                         Note 06.
 #     For the following prompts, you will need to consider missing values. In R,
 #     missing values are denoted by the symbol NA, which means "Not Available."
