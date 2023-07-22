@@ -95,12 +95,13 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 
 ### Part 3: Locations (`analysis.R`)
 
--   **(R3a)** ... (about 25-50 words)
--   **(R3b)** ... (about 25-50 words)
--   **(R3c)** ... (about 25-50 words)
+-   **(R3a)** Not surprised. Part of the reason is that Washington is a big state with dense population. I went to the Strike protest last quarter with my friends (the one just after the spring quarter). We live in a world that our voice can be heard and be respected.
+-   **(R3b)** I find that using sapply() function is a very efficient. I believe there must be other functions similar to sapply() that can deal with larger vectors and data in math. Feel excited to learn more about it.
+-   **(R3c)** There are still some problems data missing, outliers and human-made errors. (for example, WA and wA). I'm wondering maybe we can use AI to check common error before we analysis the data, which may increase our efficiency.
 
 ### Critical Analysis & Reflection: After You Code (questions above)
 
--   **(R7h)** ... (100 words or more)
--   **(R7i)** ... (50 words or more)
--   **(R7j)** ... (50 words or more)
+-   **(R7h)** The CountLove project is incredible because it challenges the lack of LGBTQ+ representation in media. By involving overlooked individuals, it can gather important insights and give a platform to marginalized voices. This shows the power of data for change and a more inclusive society just like what we as students want to achieve in the future. CountLove embodies "collect" and "teach" by compiling protest data and making it accessible for everyone. It also embraces "teach" by making its data easily accessible for use, supporting the education of the next generation of data analysts and empowering those who wants to gain some knowledge. I believe that data can be a potent tool for driving change. By adopting a people-centered approach and unleashing creativity, we can use data to create a significant impact.
+
+-   **(R7i)** In the assignment,I learnt what the CountLove project is all about and its importance to our world. Also, I improved data sorting and learned to use functions in R effectively. Practical exercises highlighted data manipulation's importance and how functions make code better. The assignment laid a strong foundation for data handling and showed data's power. I'm looking for how to apply these skills in different areas as I continue my data analysis journey in the future. I believe I will learn more thing that is interesting to me.
+-   **(R7j)** I aimed to explore the correlation between the demographics and the frequency of the protest in the areas. It seems reasonable to link these two variables and to see their covariance. By identifying common patterns in these activities across different regions happening simultaneously, we can gain valuable insights into the issues that truly concern people.
