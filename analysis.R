@@ -5,7 +5,7 @@
 #    shipeh@uw.edu
 
 # Practice set info ---- 
-practice.begin("A2", learner="Shipei Huang", email="shipei@uw.edu")
+practice.begin("A2", learner="Shipei Huang", email="shipeh@uw.edu")
 
 # Your 44 prompts ----
 
@@ -406,7 +406,7 @@ num_purposes
 #    thoughtful trial and error. (Variable: `get_purposes`)
 print(purpose)
 get_purposes <- function() {
-  cleaned_purposes <- str_replace(purpose, "\\s*\\([^\\)]+\\)", "")
+  cleaned_purposes <- str_replace(purpose, "\\s*\\(^\]+\)", "")
   return(cleaned_purposes)
 }
 
